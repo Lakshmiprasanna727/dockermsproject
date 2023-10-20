@@ -4,6 +4,6 @@ services:
   movies:
     image: lakshmiprasanna07/paytmmovie:latest
     ports:
-      - "81:80"
+      - "82:80"
     deploy:
       replicas: 2
